@@ -1,6 +1,6 @@
 from string import 	ascii_lowercase
 
-mensagem = str(input(''))
+mensagem = str(input('Mensagem a ser modificada: '))
 
 def codificar(mensagem: str, n=1):
 	"""Codifica a mensagem enviada.
